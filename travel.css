@@ -1,9 +1,13 @@
+html, body{
+    height: 100%;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 2;
-    background-color: #f9f9f9;
+    background-color: #e5e5e5cb;
     color: #333;
 }
 
@@ -68,17 +72,16 @@ h2 {
 .destinations {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
+    gap: 1.8rem;
 }
 
 .destination-item {
-    background: #fff;
+    background: #f1f0f0;
     border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     text-align: center;
-    padding: 1em;
 }
 
 .destination-item:hover{
@@ -89,24 +92,25 @@ h2 {
     max-width: 100%;
     height: auto;
     border-bottom: 1px solid #ddd;
-    margin-bottom: 1rem;
 }
 
 .destination-item h3 {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 0.5rem;
-    margin-top: -0.3rem;
+    margin-top: 0.3rem;
 }
 
 .destination-item p {
     font-size: 1rem;
     color: #666;
+    margin: 4%;
 }
 
 footer{
     background-color: #333;
     text-align: center;
     color: #fff;
-    line-height: 4;
+    line-height: 2;
+    margin-top: 50px;
 }

@@ -1,3 +1,7 @@
+html, body{
+    height: 100%;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -12,6 +16,7 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 header h1 {
@@ -92,5 +97,5 @@ footer{
     background-color: #333;
     text-align: center;
     color: #fff;
-    line-height: 4;
+    line-height: 2;
 }
