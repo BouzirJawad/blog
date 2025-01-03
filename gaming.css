@@ -4,17 +4,30 @@
     gap: 1.8rem;
 }
 
-.game {
+.game{
     background: #f1f0f0;
     border: 0px solid #ddd;
     border-radius: 20px;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.3);
     overflow: hidden;
     text-align: center;
+    transition:  0.5s ease;
+}
+
+.game a{
+    color: #666;
+}
+
+.game:hover a{
+    color: #000000;
 }
 
 .game:hover{
     transform: scale(1.05);
+}
+
+.game:hover p{
+    color: #000000;
 }
 
 .game img {

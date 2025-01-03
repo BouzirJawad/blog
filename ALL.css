@@ -19,6 +19,8 @@ header {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 header h1 {
@@ -38,6 +40,11 @@ nav ul {
     justify-content: center;
     gap: 40px;
     margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.active{
+    background-color: #ff0000;
 }
 
 nav a {
@@ -47,10 +54,13 @@ nav a {
     padding: 5px 15px;
     border: 1.5px solid #fff;
     border-radius: 20px;
+    transition:  0.3s ease;
 }
 
-nav a:hover {
-    background-color: #ff0000;
+
+
+nav a:hover:not(.active) {
+    background-color: #d80000;
     color: white;
     padding-block: 10px 10px;
 }
