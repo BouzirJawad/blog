@@ -1,0 +1,32 @@
+.sports {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sport {
+    text-align: center;
+    max-width: 300px;
+}
+
+.sport:hover{
+    transform: scale(1.05);
+}
+
+.sport img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.category p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+main{
+    background-image: url(/blog/images/sports2.jpg)
+}
