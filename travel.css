@@ -1,6 +1,7 @@
 .destinations {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     gap: 1.8rem;
 }
 
@@ -24,6 +25,7 @@
     overflow: hidden;
     text-align: center;
     transition:  0.5s ease;
+    width: 450px;
 }
 
 .destination-item:hover{
